@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>India Midcap &amp; Smallcap — Low Buy-Side / High Sell-Side Liquidity</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; background:#0b1220; color:#e8eef7; }
+  header { padding:28px 20px 18px; max-width:1100px; margin:0 auto; }
+  .badge { display:inline-block; font-size:12px; letter-spacing:.08em; text-transform:uppercase; background:#1e293b; border:1px solid #334155; color:#93c5fd; padding:6px 10px; border-radius:999px; }
+  h1 { font-size:32px; line-height:1.15; margin:14px 0 8px; }
+  p.sub { color:#a9b8cf; margin:0 0 12px; font-size:15px; line-height:1.5; }
+  .grid { display:grid; grid-template-columns:1fr 1fr; gap:12px; max-width:1100px; margin:0 auto; padding:0 20px; }
+  @media (max-width:720px){ .grid{ grid-template-columns:1fr; } h1{ font-size:24px; } }
+  .card { background:#111c33; border:1px solid #24365a; border-radius:12px; padding:14px 14px; }
+  .card h2 { margin:0 0 6px; font-size:16px; }
+  .card p { margin:0; font-size:13.5px; color:#a9b8cf; line-height:1.5; }
+  main { max-width:1100px; margin:18px auto 30px; padding:0 20px; }
+  section.tbl { background:#0f1930; border:1px solid #24365a; border-radius:12px; overflow:hidden; margin-bottom:18px; }
+  section.tbl h2 { margin:0; padding:14px 16px; font-size:17px; background:#14234a; border-bottom:1px solid #24365a; }
+  section.tbl h2 span { color:#93c5fd; font-weight:600; }
+  .wrap { overflow-x:auto; }
+  table { width:100%; border-collapse:collapse; font-size:13.5px; min-width:760px; }
+  th, td { text-align:left; padding:10px 12px; border-bottom:1px solid #1e2d4f; white-space:nowrap; }
+  th { color:#93c5fd; font-size:12px; text-transform:uppercase; letter-spacing:.06em; background:#0f1c3a; }
+  td.neg { color:#f87171; font-weight:700; }
+  td.vol { color:#fcd34d; }
+  tr:last-child td { border-bottom:none; }
+  .tag { display:inline-block; font-size:11.5px; padding:3px 8px; border-radius:999px; border:1px solid #334155; }
+  .tag.sell { background:#3b0f1a; border-color:#7f1d2e; color:#fda4af; }
+  .tag.buy { background:#0f2a1d; border-color:#14532d; color:#86efac; }
+  footer { max-width:1100px; margin:0 auto; padding:0 20px 40px; color:#7d8fb0; font-size:12.5px; line-height:1.6; }
+  .legend { display:flex; gap:8px; flex-wrap:wrap; margin:12px 0 0; }
+</style>
+</head>
+<body>
+<header>
+  <div class="badge">NSE &bull; Oct 1–6, 2026 &bull; Midcap 100 / Smallcap 100/250</div>
+  <h1>Midcap &amp; Smallcap: Buy-Side Liquidity MIN, Sell-Side Liquidity HIGH</h1>
+  <p class="sub">Thin bids + heavy offers = selling pressure. These NSE midcap / smallcap names showed the clearest distribution: sharp falls on high volume, weak intraday buying, sellers dominating the order book. <strong>Not financial advice</strong> — always check live market depth (5-level bid/ask, bid-ask %, delivery %) before trading.</p>
+  <div class="legend">
+    <span class="tag buy">BUY-SIDE MIN: few bids / wide spread</span>
+    <span class="tag sell">SELL-SIDE HIGH: heavy offers / high volume fall</span>
+  </div>
+</header>
+
+<div class="grid">
+  <div class="card"><h2>How to read this</h2><p><strong>Buy-side min</strong> = buyers disappeared, low bid quantity, support breaks on small selling. <strong>Sell-side high</strong> = large offer quantity stacked above price, fall on 1.3x–19x relative volume, lower circuits / breakdowns.</p></div>
+  <div class="card"><h2>What to check live</h2><p>Market depth bid/ask spread &gt;0.3–0.5% = illiquid. Fall on heavy volume = real supply. Fall on light volume = just no buyers. Use limit orders, avoid market orders in thin books.</p></div>
+</div>
+
+<main>
+  <section class="tbl">
+    <h2><span>MIDCAP</span> — heaviest sell pressure (week to Oct 1 + Oct 5–6)</h2>
+    <div class="wrap"><table>
+      <thead><tr><th>Stock</th><th>LTP (Rs)</th><th>Fall</th><th>Volume signal</th><th>Liquidity read</th><th>Why listed</th></tr></thead>
+      <tbody>
+        <tr><td>PB Fintech (Policybazaar)</td><td>~1001</td><td class="neg">-18.8% week, -5.86% day</td><td class="vol">Rs 42,000 cr mcap lost in 7 sessions</td><td><span class="tag buy">bids thin</span> <span class="tag sell">offers heavy</span></td><td>IRDAI commission-cap paper; 7-day rout to IPO price 980</td></tr>
+        <tr><td>Patanjali Foods</td><td>—</td><td class="neg">-12.3% week</td><td class="vol">Midcap 100 weekly loser #2</td><td><span class="tag buy">buy min</span> <span class="tag sell">sell high</span></td><td>Broad FMCG + midcap selloff</td></tr>
+        <tr><td>Swiggy</td><td>—</td><td class="neg">-11.0% week</td><td class="vol">Midcap 100 weekly loser</td><td><span class="tag buy">buy min</span> <span class="tag sell">sell high</span></td><td>New-age consumption de-rating</td></tr>
+        <tr><td>Fortis Healthcare</td><td>—</td><td class="neg">-10.5% week, -2.7% Oct 5</td><td class="vol">Sustained supply</td><td><span class="tag buy">bids fading</span> <span class="tag sell">supply overhang</span></td><td>Profit-booking after defensives ran</td></tr>
+        <tr><td>LIC Housing Finance</td><td>502.0</td><td class="neg">-9.8% week, -11% 1-wk</td><td class="vol">1.2M shares Oct 6</td><td><span class="tag buy">buy min</span> <span class="tag sell">sell high</span></td><td>Rate + NBFC funding fears</td></tr>
+        <tr><td>Max Financial Services</td><td>—</td><td class="neg">-3.16% Oct 5</td><td class="vol">Top Midcap 100 loser Oct 5</td><td><span class="tag buy">thin bids</span> <span class="tag sell">heavy offers</span></td><td>Insurance selloff with PB Fintech</td></tr>
+        <tr><td>Phoenix Mills</td><td>1883.5</td><td class="neg">-2.7% Oct 6</td><td class="vol">617.9K</td><td><span class="tag buy">buy min</span> <span class="tag sell">sell high</span></td><td>Top Midcap 100 loser Oct 6</td></tr>
+        <tr><td>Federal Bank</td><td>320.0</td><td class="neg">-2.3% Oct 6</td><td class="vol">4.3M</td><td><span class="tag buy">bids light</span> <span class="tag sell">offers stacked</span></td><td>Banking weakness, FII selling</td></tr>
+        <tr><td>Kalyan Jewellers</td><td>548.2</td><td class="neg">-1.6% Oct 6, -8.5% month</td><td class="vol">14.9M (very high)</td><td><span class="tag buy">buy min</span> <span class="tag sell">sell very high</span></td><td>High-volume distribution</td></tr>
+        <tr><td>YES Bank / IDFC First / BoI</td><td>20.9 / 81.6 / 132.2</td><td class="neg">-0.8% to -1.0% Oct 6</td><td class="vol">48.9M / 29.1M / 3.3M</td><td><span class="tag buy">buy min</span> <span class="tag sell">sell high</span></td><td>PSU + private bank supply</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <section class="tbl">
+    <h2><span>SMALLCAP</span> — low buyers, heavy sellers (Oct 1–5)</h2>
+    <div class="wrap"><table>
+      <thead><tr><th>Stock</th><th>Close (Rs)</th><th>Fall</th><th>Volume signal</th><th>Liquidity read</th><th>Note</th></tr></thead>
+      <tbody>
+        <tr><td>V2 Retail</td><td>169.28</td><td class="neg">-15.94% day</td><td class="vol">19.49x RVOL, Rs 313 cr</td><td><span class="tag buy">buy vacuum</span> <span class="tag sell">sell extreme</span></td><td>Top NSE loser Oct 5; one-sided book</td></tr>
+        <tr><td>IFCI</td><td>~65.9</td><td class="neg">-13.4% week, -4.2% day</td><td class="vol">Smallcap weekly loser #1</td><td><span class="tag buy">buy min</span> <span class="tag sell">sell high</span></td><td>PSU NBFC profit-booking</td></tr>
+        <tr><td>Ola Electric</td><td>—</td><td class="neg">-12.8% week</td><td class="vol">Sustained high supply</td><td><span class="tag buy">bids thin</span> <span class="tag sell">offers heavy</span></td><td>EV de-rating, lock-in supply</td></tr>
+        <tr><td>Texmaco Rail</td><td>117.18</td><td class="neg">-7.63% day</td><td class="vol">1.36x RVOL, Rs 64 cr</td><td><span class="tag buy">buy min</span> <span class="tag sell">sell high</span></td><td>Capital-goods selloff</td></tr>
+        <tr><td>Avenue Supermarts (DMART)</td><td>3567</td><td class="neg">-6.45% day</td><td class="vol">5.53x RVOL, Rs 910 cr</td><td><span class="tag buy">buy min</span> <span class="tag sell">sell very high</span></td><td>Large sell-side block on heavyweight</td></tr>
+        <tr><td>Bandhan Bank</td><td>168.27</td><td class="neg">-4.39% Oct 5</td><td class="vol">1.30x RVOL, Rs 305 cr</td><td><span class="tag buy">thin bids</span> <span class="tag sell">heavy offers</span></td><td>Top Smallcap 100 loser Oct 5</td></tr>
+        <tr><td>Welspun Corp</td><td>—</td><td class="neg">-4.02% Oct 5</td><td class="vol">Elevated turnover</td><td><span class="tag buy">buy min</span> <span class="tag sell">sell high</span></td><td>Mid-small industrials weakness</td></tr>
+        <tr><td>Balaji Amines</td><td>1957.8</td><td class="neg">-4.60% day</td><td class="vol">1.48x RVOL, Rs 57 cr</td><td><span class="tag buy">buy min</span> <span class="tag sell">sell high</span></td><td>Chemical supply overhang</td></tr>
+        <tr><td>Safari Industries</td><td>1308.6</td><td class="neg">-5.09% day</td><td class="vol">1.27x RVOL</td><td><span class="tag buy">bids light</span> <span class="tag sell">offers heavy</span></td><td>Consumer-durables distribution</td></tr>
+        <tr><td>GMDC / GRSE / PhysicsWallah</td><td>—</td><td class="neg">-9% to -10% week</td><td class="vol">Weekly smallcap laggards</td><td><span class="tag buy">buy min</span> <span class="tag sell">sell high</span></td><td>PSU + IPO-cohort selling</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+</main>
+
+<footer>
+  Data compiled from NSE / Trendlyne / NDTV Profit / Upstox / Flash Finance for Oct 1, 5, 6 2026. Midcap 100 fell ~3.7% that week, Smallcap 100 fell ~3.2%, Midcap 150 -0.9% and Smallcap 250 -1.3% on Oct 1 alone. “Buy min / Sell high” here means order-flow stance (bid depth low, ask pressure high), not a recommendation. Verify live bid-ask %, delivery %, circuits and results before any decision.
+  <br/>Built as a static page for preview &amp; screenshot validation.
+</footer>
+</body>
+</html>
